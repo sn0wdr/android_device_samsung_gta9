@@ -5,7 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := $(call my-dir)
+PRODUCT_MAKEFILES := \twrp__gta9.mk
+    $(LOCAL_DIR)/
 
 ifeq ($(TARGET_DEVICE),gta9)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
