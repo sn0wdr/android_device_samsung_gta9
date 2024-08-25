@@ -20,10 +20,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 #    android.hardware.boot@1.0-service
 
 # PRODUCT_PACKAGES += \
-#    bootctrl.mt6768
+#    bootctrl.mt6789
 
 # PRODUCT_PACKAGES += \
-#    bootctrl.mt6768 \
+#    bootctrl.mt6789 \
 #    libgptutils \
 #    libz \
 #    libcutils
@@ -33,8 +33,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.mt6768 \
-    bootctrl.mt6768.recovery \
+    bootctrl.mt6789 \
+    bootctrl.mt6789.recovery \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
